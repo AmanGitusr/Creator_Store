@@ -8,5 +8,4 @@ public class CreatorStoreApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(CreatorStoreApplication.class, args);
 	}
-
 }

@@ -41,8 +41,6 @@ public class Product {
     @Column(name = "stock_quantity", nullable = false)
     private Integer stockQuantity;
 
-    // TODO: relations
-
     @JsonIgnore
     @OneToMany (mappedBy = "product")
     private List<OrderItem> orderItem;
